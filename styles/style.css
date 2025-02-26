@@ -34,13 +34,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: -300px;
+
+   
 }
+
 .menu ul li{
-    margin-right: 20px;
+    width: 100px;
 }
 .menu ul li a{
 text-decoration: none;
 color: bisque;
+
 }
 .menu ul li a:hover{
     color: black;
