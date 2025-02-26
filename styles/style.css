@@ -84,7 +84,7 @@ color: bisque;
 .library_image {
     width: 100%;
     height: 832px;
-    background-image: url(images/liblary_image.png);
+    background-image: url(liblary_image.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,7 +213,7 @@ margin-top: -10px;
     margin: 0 10px;
 }
 .footer-nav a:hover {
-    text-decoration: underline;
+    text-decoration: dashed;
 }
 
 
