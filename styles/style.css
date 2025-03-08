@@ -28,6 +28,7 @@ body{
     font-size: 16px;
     font-weight: 600;  
     padding-left: 500px;
+    animation: dede1 9s 1 forwards;
 }
 .menu ul{
     list-style: none;
@@ -35,20 +36,22 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-left: -300px;
-
+    animation: dede1 9s 1 forwards;
    
 }
 
 .menu ul li{
     width: 100px;
+    animation: dede1 9s 1 forwards;
 }
 .menu ul li a{
 text-decoration: none;
 color: bisque;
-
+animation: dede1 9s 1 forwards;
 }
 .menu ul li a:hover{
     color: black;
+    animation: dede1 9s 1 forwards;
 }
 .vertical-line{
     color: aliceblue;
@@ -215,9 +218,36 @@ margin-top: -10px;
 .footer-nav a:hover {
     text-decoration: dashed;
 }
-.logo
-
-
+.menu {
+    color: aliceblue;
+    animation: dede1 2s infinite;
+}
+@keyframes dede1 {
+    0% {
+        color: #ff0000c4;
+    }
+    20%{
+        color: #ff9100;
+    }
+    33% {
+        color: #fffb00;
+    }
+    45% {
+        color: #09ff00;
+    }
+    66%{
+        color: rgb(0, 183, 255);
+    }
+    78% {
+        color: rgb(5, 30, 172);
+    }
+    89%{
+        color: rgb(124, 11, 168);
+    }
+    100%{
+        color: #fff;
+    }
+}
 
 
 
